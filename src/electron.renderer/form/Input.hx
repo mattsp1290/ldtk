@@ -4,6 +4,7 @@ package form;
 import haxe.macro.Expr;
 import haxe.macro.Context;
 #end
+import dn.data.LocaleString;
 
 class Input<T> {
 	#if !macro
